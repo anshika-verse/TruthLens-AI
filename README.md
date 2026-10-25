@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TruthLens AI — Explainable Fake News Detection System
 
 TruthLens AI is a Machine Learning and Natural Language Processing application designed to classify news text as either **Real** or **Fake** using supervised text classification models and TF-IDF feature extraction.
@@ -94,3 +95,7 @@ pytest tests/ -v
 1. **Statistical Correlation vs. Truth:** Text classification models detect linguistic patterns, vocabulary choices, and structural quirks present in the training set. They do not have live access to reality or real-time ground truth.
 2. **Dataset-Specific Biases:** Datasets like the Kaggle Fake/Real news corpus frequently feature stylistic publisher markers (e.g., `"WASHINGTON (Reuters)"` in real articles). Models may latch onto these formatting cues.
 3. **Fact Verification:** Model output should never be treated as an authoritative verdict. High-stakes claims must always be verified using established, independent journalistic sources.
+=======
+# TruthLens-AI
+An AI-powered news intelligence platform using Machine learning and NLP to detect potential misinformation,analyze news credibility
+>>>>>>> 046b2196f07ad41d765f86325a1377ab44c8fa23
